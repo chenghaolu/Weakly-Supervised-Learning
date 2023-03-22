@@ -5,15 +5,15 @@
 
 Term: Spring 2023
 
-+ Team ##
++ Team # 3
 + Team members
-	+ team member 1
-	+ team member 2
-	+ team member 3
-	+ team member 4
-	+ team member 5
+	+ Kaitlyn Brown
+	+ Jinghan Huang
+	+ Zhi Huang
+	+ Chenghao Lu
+	+ Mingze Xu
 
-+ Project summary: In this project, we created ...
++ Project summary: In this project, we created two versions of a model to perform image classification given training data with noisy labels and a baseline logistic regression model with a 24% accuracy. In our first model, we ignore the issue of noisy labels and implement a convolutional neural network that is able reach validation accuracies in the 40-50% range. In our second model, we use weakly supervised learning techniques to first address the issue of noisy labels. We are given 10,000 data points with labels that are known to be clean and use those data points to train a convolutional neural network. We then run our remaining training data with potentially noisy labels through that convolutional neural network and output new labels for those data points. Those data points and their new labels are then used as the input training data for the first model (also a convolutional neural network). The second model is able to reach validation accuracies in the 70-80% range.
 	
 
 **Contribution statement**: ([default](doc/a_note_on_contributions.md)) All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement. 
